@@ -1,13 +1,11 @@
 <?php 
 
-$nomes = array(
-    1=> "wilton",
-    2=>"Luciana",
-    3=> "mariana"
-);
-unset($nomes[3]);// ele não mostra o indice escolhidos
+//saber se é array
+$array = [1,2,3];
+$teste = is_array($array);
+var_dump($teste);// aqui aparecera se é true ou false relacionado se é um array.
 
-echo "<pre>";
-print_r($nomes);
-echo "</pre>";
+//Resultado
+"bool(true)";
+
 ?>
