@@ -1,16 +1,13 @@
 <?php 
-$aluno= [
-    "nome" => "joão",
-    "idade"=> 20,
-    "curso" => "Sistemas de informação"
-];
-//adicionando novo campo
-$aluno["semestre"]=4;
+$numeros = [1,4,6,9,1,5,9,12];
+//ordem crecente
+sort($numeros);
+echo "Ordem crescente: \n";
+print_r($numeros);
 
-//exibindo valores
-echo "nome: ". $aluno["nome"]."<br>";
-echo "Curso: ". $aluno["curso"]."<br>";
-
-
+//ordem decrecente
+rsort($numeros);
+echo "Ordem decrecente:\n";
+print_r($numeros);
 
 ?>
