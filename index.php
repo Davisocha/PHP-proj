@@ -1,6 +1,6 @@
 <?php 
-function teste(){
-    echo "Teste de função!!";
+function teste($n){
+    echo "Teste de função com parametro: $n";
 }
-teste();
+teste(1);
 ?>
