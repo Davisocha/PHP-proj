@@ -1,13 +1,19 @@
 <?php 
+//arrays multidimensionais
+$times = [
+    "time 1" => ["flamengo","curintia","palmeiras"],
+    "time 2" => ["Barcelona","Real madrid","Atletico de madrid"]
+];
 
-$numeros = [10,20,30,40,50];
-//primeiro elemento
-echo "primeiro elemento: ".$numeros[0]."<br>" ;
-//alterando o terceiro elemento
-$numeros[2]= 35;
-print_r($numeros);
-//Resultado
+//exibindo times brasileiros 
+echo "Times brasileiros: "."<br>";
+print_r($times["time 1"]);
 
-//primeiro elemento: 10
-//Array ( [0] => 10 [1] => 20 [2] => 35 [3] => 40 [4] => 50 )
+//adicionando um novo time
+$times["time 2"][]= "sevilla";
+print_r($times);
+
+//RESULTADO
+// Times brasileiros:
+// Array ( [0] => flamengo [1] => curintia [2] => palmeiras ) Array ( [time 1] => Array ( [0] => flamengo [1] => curintia [2] => palmeiras ) [time 2] => Array ( [0] => Barcelona [1] => Real madrid [2] => Atletico de madrid [3] => sevilla ) )
 ?>
