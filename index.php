@@ -1,11 +1,13 @@
 <?php 
 
-//saber se é array
-$array = [1,2,3];
-$teste = is_array($array);
-var_dump($teste);// aqui aparecera se é true ou false relacionado se é um array.
-
+$numeros = [10,20,30,40,50];
+//primeiro elemento
+echo "primeiro elemento: ".$numeros[0]."<br>" ;
+//alterando o terceiro elemento
+$numeros[2]= 35;
+print_r($numeros);
 //Resultado
-"bool(true)";
 
+//primeiro elemento: 10
+//Array ( [0] => 10 [1] => 20 [2] => 35 [3] => 40 [4] => 50 )
 ?>
