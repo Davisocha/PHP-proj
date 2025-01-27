@@ -148,4 +148,55 @@ while ($num1 <= 10){
     for ($count=1;$count <=10; $count++)
     echo $tabuada." X ".$count. " = ".($tabuada*$count)."<br>";
     }
-   
+   //array
+// $dados = array("nome",1,true);
+// array_unshift($dados,"TI97s");
+// print_r($dados)
+
+//array com chave
+// => = operador associativo 
+$array = ["a "=> 1,"b "=> 2];
+print_r($array);
+$array["c"]=4;  //adicona um  
+print_r($array);
+
+$array= [ 
+    "nome"=>'mariana',
+    "idadade" => 30,
+    "cidade"=>"são paulo"
+    
+];
+foreach($array as $chave =>$valor)
+{echo "chaveeeeee: $chave, valor: $valor\n";}
+
+//mesclar arrays
+$array1 = [1,2,3];
+$array2 = [5,6];
+
+$array = array_merge($array1,$array2);print_r($array);
+//
+//$pessoa ['nome'=> 'mariana','idade'=>30 , 'DICUMENTOS'=> ['CPF' => 123456,'RG'=> 1234]];
+//
+
+// $TIPO = "davi";
+// $bool = (boolean)$tipo;
+// var_dump($bool);
+
+------------------------------------------------
+$nomes = array(                                 |
+    1=>"Davi",                                  |
+    2=>"Nicolas",                               |
+    3=>"Gabriel"                                |
+);                                              | 
+echo "<pre>";                                   | 
+print_r($nomes);                                | 
+echo "</pre>"                                   | 
+RESULTADO:                                      | 
+Array                                           | 
+(                                               |
+    [1] => Davi                                 |         
+    [2] => Nicolas                              |        
+    [3] => Gabriel                              |    
+)                                               |    
+-------------------------------------------------
+
