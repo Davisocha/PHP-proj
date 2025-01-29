@@ -1,0 +1,8 @@
+body {
+
+    & .principal{
+       display: flex;
+       background-color: rebeccapurple;
+    }
+    
+}

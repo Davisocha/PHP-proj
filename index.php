@@ -17,3 +17,4 @@ echo "A raiz quadrada de $numero é $resul";
 //resultado da função 
 /*A raiz quadrada de 10 é 3.16*/
     ?>
+    
