@@ -1,6 +1,7 @@
 <?php 
-$array = ["Maçã","Banana","Laranja"];
-$str = implode(", ",$array);
-print_r($str);
+$str = "Teste de String";
+echo strtolower($str)."<br>";//teste de string
+echo strtoupper($str)."<br>";//teste de string
+
 ?>
     
