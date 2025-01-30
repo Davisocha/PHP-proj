@@ -7,7 +7,14 @@
 body {
     list-style: none;
     
-    
+    & .cards{
+        display: flex;
+        justify-content:space-around; 
+        margin-top: 10%;
+        margin-bottom: 5%;
+
+        
+    }
     
     & .principal {
         display: flex;
@@ -17,19 +24,31 @@ body {
         background-color: rgb(200, 190, 236);
         padding: 20px;
     }
-
+    & .section-primeiro{
+        display: flex;
+        justify-content: center;
+    }
     & .div-primeiro {
        
         text-align: center;    
         width: 400px;
         height: 300px;
         background-color: rgb(221, 184, 255);
-        
+     
+       
     }
 
 }
-
+  
 body main ul {
     display: flex;
     gap: 30px;
 }
+.rodape{
+    
+    width: 100%;
+    padding: 50px;
+    background-color: rgb(83, 63, 100);
+    color: aliceblue;
+    
+} 
