@@ -19,10 +19,10 @@ body {
     & .principal {
         display: flex;
         justify-content: center;
-        gap: 70%;
+        gap: 60%;
         align-items: center;
         background-color: rgb(200, 190, 236);
-        padding: 20px;
+        padding: 30px;
     }
     & .section-primeiro{
         display: flex;

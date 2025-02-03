@@ -13,6 +13,11 @@
         <h1>ECoficiência</h1>
         <ul>
             <li class=" listas"><a href="cadastro.html">Cadastro</a></li>
+            <li class=" listas"><a href="cadastro.html">Beneficios</a></li>
+            <li class=" listas"><a href="cadastro.html">Cadastro</a></li>
+            <li class=" listas"><a href="cadastro.html">Cadastro</a></li>
+            
+            
         </ul>
     </main>
     <div class="cards">
