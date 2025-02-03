@@ -13,9 +13,9 @@
         <h1>ECoficiência</h1>
         <ul>
             <li class=" listas"><a href="cadastro.html">Cadastro</a></li>
-            <li class=" listas"><a href="cadastro.html">Beneficios</a></li>
-            <li class=" listas"><a href="cadastro.html">Cadastro</a></li>
-            <li class=" listas"><a href="cadastro.html">Cadastro</a></li>
+            <li class=" listas"><a href="beneficios.html">Beneficios</a></li>
+            <li class=" listas"><a href="importancia.html">Importância</a></li>
+            <li class=" listas"><a href="cadastro.html"></a></li>
             
             
         </ul>
@@ -27,12 +27,7 @@
                 <p>Coeficiência é um conceito que combina eficiÊncia e cooperação para otimizar recursos e melhorar resultados em diversos contextos, como ambiental, empresarial e social</p>
             </div>
         </section>
-        <section>
-            <div class="div-primeiro">
-                <h2>Importância da Coeficiência</h2>
-                <p>Aplicar Coeficiência permite reduzir deperdícios, aumentar a produtividade e promover um desenvolvimento sustentável, impactando positivamente a economia e o meio ambiente.</p>
-            </div>
-        </section>
+        
         <section>
             <div class="div-primeiro">
                 <h2>Beneficios</h2>
